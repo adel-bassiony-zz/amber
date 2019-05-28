@@ -10,7 +10,7 @@ Node.js
 ---
 
 ## Usage:
-### 1- Create new project ( new sass folder + structure ):
+### 1- Create New Project ( new sass folder + structure ):
 
 ##### Using Node.js:
 ```node amber/commands/create_structure.js```
@@ -27,4 +27,3 @@ Node.js
 ##### Using NPM (adding this line inside your scripts):
 
 ```"cc": "node amber/commands/create_component.js"```
-
