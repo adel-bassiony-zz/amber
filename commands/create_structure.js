@@ -111,9 +111,25 @@ function copyResposniveFiles() {
     });
 }
 
+// CopyStyleFiles
+function copyStyleFiles() {
+
+    // Copy: Responsive =>  _all
+    fs.copyFile('amber/sass/style.scss', 'sass/style.scss', (err) => {
+        if (err) throw err;
+    });
+
+    // Copy: Responsive =>  _all
+    fs.copyFile('amber/sass/style-rtl.scss', 'sass/style-rtl.scss', (err) => {
+        if (err) throw err;
+    });
+    
+}
+
 
 // Execute Functions
 createStructure();
 copyBaseFiles();
 copyComponentsFiles();
 copyResposniveFiles();
+copyStyleFiles();
