@@ -7,9 +7,19 @@ it will create a new component and include it inside the _all.scc file also will
 ## Requirments:
 Node.js
 
+---
 
 ## Usage:
-### Create New Component:
+### 1- Create new project ( new sass folder + structure ):
+
+##### Using Node.js:
+```node amber/commands/create_structure.js```
+
+##### Using NPM (adding this line inside your scripts):
+```"cs": "node amber/commands/create_structure.js"```
+
+
+### 2- Create New Component:
 
 ##### Using Node.js:
 ```node amber/commands/create_component.js```
