@@ -7,23 +7,28 @@ it will create a new component and include it inside the _all.scc file also will
 ## Requirments:
 Node.js
 
+Git
+
 ---
 
 ## Usage:
-### 1- Create New Project ( new sass folder + structure ):
+### 1- Clone The Project Files:
+```git clone https://github.com/adel-bassiony/amber.git```
+
+### 2- Create New Project ( new sass folder + structure ):
 
 ##### Using Node.js:
 ```node amber/commands/create_structure.js```
 
-##### Using NPM (adding this line inside your scripts):
+##### Using NPM (add this line inside your scripts):
 ```"cs": "node amber/commands/create_structure.js"```
 
 
-### 2- Create New Component:
+### 3- Create New Component:
 
 ##### Using Node.js:
 ```node amber/commands/create_component.js```
 
-##### Using NPM (adding this line inside your scripts):
+##### Using NPM (add this line inside your scripts):
 
 ```"cc": "node amber/commands/create_component.js"```
