@@ -1,3 +1,6 @@
+// Common Variables
+@import "base/variables";
+
 // RTL Variables
 @import "base/variables_rtl";
 
@@ -5,9 +8,11 @@
 @import "base/reset";
 @import "base/functions";
 @import "base/mixins";
-@import "base/colors";
 @import "base/typography";
+@import "base/colors";
 @import "base/general";
+@import "base/template";
+@import "base/browsers_compatibility";
 
 // Components
 @import "components/all";

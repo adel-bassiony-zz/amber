@@ -33,6 +33,11 @@ function createStructure() {
 // CopyBaseFiles
 function copyBaseFiles() {
 
+    // Copy: Base =>  _browsers_compatibility
+    fs.copyFile('amber/sass/base/_browsers_compatibility.scss', 'sass/base/_browsers_compatibility.scss', (err) => {
+        if (err) throw err;
+    });
+
     // Copy: Base =>  _colors
     fs.copyFile('amber/sass/base/_colors.scss', 'sass/base/_colors.scss', (err) => {
         if (err) throw err;
@@ -58,6 +63,11 @@ function copyBaseFiles() {
         if (err) throw err;
     });
 
+    // Copy: Base =>  _template
+    fs.copyFile('amber/sass/base/_template.scss', 'sass/base/_template.scss', (err) => {
+        if (err) throw err;
+    });
+
     // Copy: Base =>  _typography
     fs.copyFile('amber/sass/base/_typography.scss', 'sass/base/_typography.scss', (err) => {
         if (err) throw err;
@@ -70,6 +80,11 @@ function copyBaseFiles() {
 
     // Copy: Base =>  _variables_rtl
     fs.copyFile('amber/sass/base/_variables_rtl.scss', 'sass/base/_variables_rtl.scss', (err) => {
+        if (err) throw err;
+    });
+
+    // Copy: Base =>  _variables
+    fs.copyFile('amber/sass/base/_variables.scss', 'sass/base/_variables.scss', (err) => {
         if (err) throw err;
     });
 }
@@ -87,6 +102,31 @@ function copyResposniveFiles() {
 
     // Copy: Responsive =>  _all
     fs.copyFile('amber/sass/responsive/_all.scss', 'sass/responsive/_all.scss', (err) => {
+        if (err) throw err;
+    });
+
+    // Copy: Responsive =>  _custom_media
+    fs.copyFile('amber/sass/responsive/_custom_media.scss', 'sass/responsive/_custom_media.scss', (err) => {
+        if (err) throw err;
+    });
+
+    // Copy: Responsive =>  _general_sm
+    fs.copyFile('amber/sass/responsive/_general_sm.scss', 'sass/responsive/_general_sm.scss', (err) => {
+        if (err) throw err;
+    });
+
+    // Copy: Responsive =>  _general_md
+    fs.copyFile('amber/sass/responsive/_general_md.scss', 'sass/responsive/_general_md.scss', (err) => {
+        if (err) throw err;
+    });
+
+    // Copy: Responsive =>  _general_lg
+    fs.copyFile('amber/sass/responsive/_general_lg.scss', 'sass/responsive/_general_lg.scss', (err) => {
+        if (err) throw err;
+    });
+
+    // Copy: Responsive =>  _general_xl
+    fs.copyFile('amber/sass/responsive/_general_xl.scss', 'sass/responsive/_general_xl.scss', (err) => {
         if (err) throw err;
     });
 
