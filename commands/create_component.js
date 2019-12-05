@@ -14,22 +14,22 @@ Basic Styles
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------
 Responsive Styles
 ---------------------------------------------------------------------------------------------------------------------------------------------------- */
-// Small devices (landscape phones, 576px and up)
+// SM ~ Small devices (landscape phones, 576px and up)
 @mixin ${component_name}_sm (){
 
 }
 
-// Medium devices (tablets, 768px and up)
+// MD ~ Medium devices (tablets, 768px and up)
 @mixin ${component_name}_md (){
 
 }
 
-// Large devices (desktops, 992px and up)
+// LG ~ Large devices (desktops, 992px and up)
 @mixin ${component_name}_lg (){
 
 }
 
-// Extra large devices (large desktops, 1200px and up)
+// XL ~ Extra large devices (large desktops, 1200px and up)
 @mixin ${component_name}_xl (){
 
 }`;
